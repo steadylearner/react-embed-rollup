@@ -23,7 +23,7 @@ export const init = (config = "Window") => {
 // }
 
 // Just comment this once before you build umd files to embed.
-// { Comment: "development($yarn build)", Uncomment: "production($yarn start)"}
+// { Comment: "production($yarn build)", Uncomment: "development($yarn start)"}
 // init()
 
 // If you want your app to work offline and load faster, you can change
