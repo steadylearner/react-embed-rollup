@@ -1,0 +1,63 @@
+{
+  "name": "react-rollup-umd",
+  "version": "0.1.0",
+  "embed": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "react",
+    "umd",
+    "rollup"
+  ],
+  "author": {
+    "name": "Steadylearner"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-image": "^2.0.4",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0",
+    "rollup": "^2.0.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-postcss": "^2.4.1",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-visualizer": "^3.3.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development react-scripts start",
+    "build": "rollup -c",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
